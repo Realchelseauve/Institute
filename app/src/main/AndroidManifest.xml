@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saransh.institute">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".First_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".HomePage" />
+        <activity android:name=".Schedule" />
+        <activity android:name=".query" />
+        <activity android:name=".adminlogin" />
+        <activity android:name=".new_user_list" />
+        <activity android:name=".signup" />
+        <activity android:name=".New_Password" />
+        <activity android:name=".remove_record" />
+        <activity android:name=".activate_record" />
+        <activity android:name=".suspend_record" />
+        <activity android:name=".Load_assignment" />
+        <activity android:name=".Response" />
+        <activity android:name=".solution" />
+        <activity android:name=".waiting_user_list" />
+        <activity android:name=".Time_table" />
+        <activity android:name=".enter_schedule" />
+        <activity android:name=".set_schedule" />
+        <activity android:name=".load_tutorial"></activity>
+    </application>
+
+</manifest>

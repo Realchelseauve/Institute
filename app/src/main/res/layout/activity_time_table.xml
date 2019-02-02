@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Time_table"
+    android:background="@color/Gold">
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="134dp"
+        android:text="THURSDAY"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="28dp"
+        android:text="FRIDAY"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:text="MONDAY"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="133dp"
+        android:text="TUESDAY"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="WEDNESDAY"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

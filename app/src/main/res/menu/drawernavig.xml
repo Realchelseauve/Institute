@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/Skin">
+    <item
+        android:id="@+id/item1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:title="My Account"
+        android:icon="@drawable/ic_home_black_24dp"/>
+    <item
+        android:id="@+id/item2"
+        android:title="Schedule"
+        android:icon="@drawable/ic_android_black_24dp"/>
+    <item
+        android:id="@+id/item3"
+        android:layout_height="match_parent"
+        android:title="Queries"
+        android:icon="@drawable/ic_change_history_black_24dp"/>
+</menu>
